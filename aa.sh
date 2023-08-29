@@ -1,5 +1,6 @@
  
 figlet information  |lolcat
+figlet coded by keshav   |lolcat
 echo -ne "enter information no"
 read num 
 echo -ne "enter yr server (1,2,3,4,5,6)"
