@@ -1,0 +1,15 @@
+curl 'https://asia-south1-truecaller-web.cloudfunctions.net/api/noneu/search/v1?q=8929321460&countryCode=in' \
+  -H 'authority: asia-south1-truecaller-web.cloudfunctions.net' \
+  -H 'accept: /' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTU5ODQxMTMzNjgsInRva2VuIjoiYTF3MEgtLWhhRW9iLS03Vl9MWV85bGhwV2Uwb0RMRHYwcGVJQWZxQUxIdWNEdjR6aGVuMXRuTzdXNndYV2o4QiIsImVuaGFuY2VkU2VhcmNoIjp0cnVlLCJjb3VudHJ5Q29kZSI6ImluIiwibmFtZSI6IkhpbWFuc2h1IiwiZW1haWwiOiJoNjI4ODMzNkBnbWFpbC5jb20iLCJpbWFnZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FBY0hUdGZjdTRhWDFsREhQZmpoSDNZZ18xRE1reVpVQ2hjTEQ1N2c2bFR4U3paXz1zOTYtYyIsImlhdCI6MTY5MzMwNTcxM30.-wiLAzPs02gzyjGMZbLnIUMR1TEQXmCm77xLjV6ssNw' \
+  -H 'origin: https://www.truecaller.com' \
+  -H 'referer: https://www.truecaller.com/' \
+  -H 'sec-ch-ua: "Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' \
+  --compressed > /dev/null 2>&1
